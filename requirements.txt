@@ -3,3 +3,8 @@ pandas
 mne
 torch
 kagglehub
+ipykernel
+scikit-learn
+fastparquet
+pypdf   
+kagglehub

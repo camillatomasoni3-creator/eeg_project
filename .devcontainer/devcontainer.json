@@ -1,9 +1,13 @@
 {
-  "name": "eeg-dl",
+  "name": "rag_challenge",
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
   },
+  "runArgs": [
+    "--env-file",
+    "${localWorkspaceFolder}/.env"
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
